@@ -1,0 +1,152 @@
+/* .events_page .event_list {
+    grid-template-columns: repeat(2, 1fr);
+}
+.events_page .event_item__view {
+    height: 200px;
+}
+.events_page .event_item__desc, .event_item__desc h3, .event_item__talker .talker__profil{
+    font-size: 130%;
+
+}
+
+.events_page h3 {
+    font-size: 32px
+}
+.events_page .rdv p{
+    font-size: 20px;
+}
+.events_page h4{
+    font-size: 20px;
+}
+.events_page .talker__title p {
+    font-size: 16px;
+} */
+
+
+
+.event_list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 26px;
+    padding: 0 0 48px 0;
+}
+
+.event_item {
+    overflow: hidden;
+    border-radius: 8px;
+    background: #fff;
+    box-shadow: 0px 4px 30px rgba(196, 196, 196, 0.2);
+    position: relative;
+    transition: .3s;
+}
+.event_item:hover {
+    transform: scale(1.01);
+}
+.event_item a {
+    text-decoration: none;
+    color: initial;
+}
+.event_item__view {
+    height: 140px;
+    overflow: hidden;
+}
+.event_item__view img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.event_item__desc {
+    padding: 24px;
+}
+.event_item__desc h3 {
+    font-weight: bold;
+}
+.event_item__infos {
+    margin: 0;
+    margin-bottom: 16px; 
+    color: var(--txt-color);
+    line-height: 23px;
+}
+
+
+.rdv p {
+    color: var(--secondary-color);
+    margin: 0;
+}
+.rdv__years {
+    position: absolute;
+    opacity: 0;
+}
+.rdv__date {
+    display: flex;
+
+}
+.rdv__date {
+    max-width:69px ;
+    width: 100%;
+    height: 69px;
+    box-shadow: 0px 1.57143px 11px rgba(196, 196, 196, 0.3);
+    border-radius: 8px;
+    text-align: center;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    background: #fff;
+    position: absolute;
+    top: 24px;
+    left: 24px;
+}
+.rdv__date .rdv__month {
+    background-color:#F64A4A ; 
+    color: #fff;
+    font-size: 12px;
+    line-height: 22px;
+    text-transform: uppercase;
+}
+.rdv__date .rdv__day {
+    flex: 1;
+    font-size: 42px;
+    font-weight: 600;
+    border-radius: 8px;
+    box-shadow: 0px 1.57143px 11px rgba(196, 196, 196, 0.3);
+    background: #fff;
+    line-height: 37px;
+}
+
+
+.talker__title  p{
+    text-transform: uppercase;
+    letter-spacing: 0.15em;
+    color: var(--txt-color);
+}
+.talker__infos {
+    display: flex;
+    align-items: center;
+}
+.talker__view {
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    overflow: hidden;
+    object-fit: contain;
+    margin-right: 16px;
+}
+.talker__view img {
+    height: 100%;
+    transform: translateX(-50%);
+    left: 50%;
+    position: relative;
+}
+.talker__profil p {
+    margin: 0;
+    line-height: 20px;
+    color: var(--txt-color);
+    font-size: 13px;
+    font-weight: 300;
+}
+p.talker__name {
+    font-size: 15px;
+    font-weight: 500;
+    color: #000;
+}
