@@ -1,0 +1,11 @@
+.event__head{
+    margin: 0 auto 48px;
+    text-align: center;
+}
+.event__content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 78px;
+}

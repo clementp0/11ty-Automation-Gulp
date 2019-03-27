@@ -1,0 +1,41 @@
+<h1>Eleventy_flatCMS (POC &amp; gh-pages) Repository</h1>
+<h2>Dependencies</h2>
+<ul>
+<li>clean-css</li>
+<li>postcss</li>
+<li>precss</li>
+<li>gulp</li>
+<li>eleventy</li>
+</ul>
+<h3>Install dependencies</h3>
+<pre><code class="language-bash"># gulp
+sudo npm install -g gulp
+
+# clean-css
+sudo npm install -g clean-css
+
+# postcss
+sudo npm install -g postcss
+
+# precss
+sudo npm install -g precss
+
+</code></pre>
+<h3>Start</h3>
+<pre><code class="language-bash"># clone the source file repository
+git clone git@github.com:clementp0/Eleventy_flatCMS.git
+
+# Start eleventy server and gulp watch simultaneously
+gulp watch &amp; eleventy --serve --formats=md,css,html,gif,js,svg
+
+# It will build the site in the output directory called &quot;EleventyMeetup_output&quot;. Can be changed here :
+};
+module.exports = {
+    dir: {
+        output: &quot;../EleventyMeetup_output&quot;
+    }
+};
+
+</code></pre>
+<p>With ❤️/ Clement Po
+https://clpo.net</p>
