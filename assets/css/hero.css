@@ -1,1 +1,14 @@
-.hero{min-height:229px;background-color:var(--main-color);padding-top:166px;padding-bottom:105px;margin-bottom:48px}.hero__content{max-width:710px}.hero__content>p{color:var(--white-color);font-size:20px}
+.hero{
+    min-height: 229px;
+    background-color: var(--main-color);
+    padding-top: 166px;
+    padding-bottom: 105px;
+    margin-bottom: 48px ;
+}
+.hero__content{
+    max-width: 710px;
+}
+.hero__content > p{
+    color: var(--white-color);
+    font-size: 20px;
+}
