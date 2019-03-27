@@ -42,3 +42,5 @@ module.exports = {
 };
 
 ```
+With ❤️/ Clement Po
+https://clpo.net
