@@ -1,6 +1,1 @@
-.event_list--old .rdv__date .rdv__month{
-    background-color: #C4C4C4;
-}
-.event_list--old .rdv__date .rdv__day{
-    color: #8F8F8F;
-}
+.event_list--old .rdv__date .rdv__month{background-color:#c4c4c4}.event_list--old .rdv__date .rdv__day{color:#8f8f8f}.single_cr .inner{max-width:900px}.single_cr__view{max-width:1080px;width:95%;height:450px;position:absolute;transform:translate(-50%,-50%);left:50%}.single_cr__view img{width:100%;height:100%;object-fit:cover}
