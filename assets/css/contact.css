@@ -1,0 +1,40 @@
+.contact__form__left{
+    background-color: var(--main-color);
+    color: var(--white-color);
+    padding: 135px 100px 100px 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.contact__form__left p{
+    color: var(--white-color);
+}
+.contact__form__left__text{
+    max-width: 358px;
+    margin-bottom: 55px;
+}
+.contact__form{
+    display: grid;
+    overflow: hidden;
+    border-radius: 8px;
+    grid-template-columns: repeat(2,1fr);
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.2);
+}
+.contact__form__right{
+    display: flex;
+}
+.contact__form__right > form{
+    width: 75%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.contact__form__right > form > label{
+    width: 100%;
+    margin-right: 32px;
+}
+.contact__form__right input,textarea{
+    width: 100%;
+}

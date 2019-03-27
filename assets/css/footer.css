@@ -1,5 +1,7 @@
 /* newsletter */
-
+footer{
+  margin-top: 80px;
+}
 .footer__newsletter {
   background-image: url("/assets/img/footer_newsletter.png");
   background-repeat: no-repeat;
