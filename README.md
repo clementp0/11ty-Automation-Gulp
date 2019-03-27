@@ -8,6 +8,22 @@
 * gulp
 * eleventy
 
+### Install dependencies
+
+```bash
+# gulp
+sudo npm install -g gulp
+
+# clean-css
+sudo npm install -g clean-css
+
+# postcss
+sudo npm install -g postcss
+
+# precss
+sudo npm install -g precss
+
+```
 ### Start
 
 ```bash
