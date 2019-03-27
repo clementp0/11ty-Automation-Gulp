@@ -1,0 +1,11 @@
+---
+layout: pages/contact.liquid
+title: contact 
+---
+{% for contact in collections.contact %}
+<div class="contact">
+<h2><a href="{{ contact.url }}">{{ contact.data.strong }}</a></h2>
+<p class="tcontact">{{ contact.data.p }}</p>
+<em>{{ contact.date | date: "%Y-%m-%d" }}</em>
+</div>
+{% endfor %}

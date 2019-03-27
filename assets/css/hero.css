@@ -1,0 +1,13 @@
+.hero{
+    height: 500px;
+    background-color: var(--main-color);
+    position: relative;
+}
+.hero__content{
+    width: 710px;
+    position: absolute;
+    bottom: 105px;
+}
+.hero__content > p{
+    color: var(--white-color);
+}

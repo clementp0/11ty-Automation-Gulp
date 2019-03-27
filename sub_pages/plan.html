@@ -1,0 +1,11 @@
+---
+layout: pages/plan.liquid
+title: Plan du site
+---
+{% for plan in collections.plan %}
+<div class="plan">
+<h2><a href="{{ plan.url }}">{{ plan.data.strong }}</a></h2>
+<p class="tplan">{{ plan.data.p }}</p>
+<em>{{ plan.date | date: "%Y-%m-%d" }}</em>
+</div>
+{% endfor %}

@@ -1,0 +1,11 @@
+---
+layout: pages/compte_rendu.liquid
+title: Page des comptes rendus
+---
+{% for compte_rendu in collections.compte_rendu %}
+<div class="compte_rendu">
+<h2><a href="{{ compte_rendu.url }}">{{ compte_rendu.data.strong }}</a></h2>
+<p>{{ compte_rendu.data.p }}</p>
+<em>{{ compte_rendu.date | date: "%Y-%m-%d" }}</em>
+</div>
+{% endfor %}
