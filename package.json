@@ -1,11 +1,11 @@
 {
-  "name": "MediumExport",
-  "version": "1.0.0",
-  "author": "Phil Hawksworth",
+  "name": "EleventyB2flat",
+  "version": "0.0.3",
+  "author": "Clement PO",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/philhawksworth/medium-export"
+    "url": "https://github.com/clementp0/Eleventy_flat_POC"
   },
   "scripts": {
     "start": "gulp watch & eleventy --serve",
